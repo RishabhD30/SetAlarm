@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating ALARM</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <h2 style="align-items:center;">&#129399;NINJA ALARM&#9200;</h2>
+    <div>
+         
+        <h3 id="realTime" style="background-color:yellowgreen ; color:#fff"></h3>
+        <div class="alarmtimebody" >
+            <div class="column">
+                <select id="hour">
+                    <option value="" selected hidden>Hr</option>
+                </select>       
+            </div>
+    
+            <div class="column">
+                <select id="min">
+                    <option value="min" selected hidden>min</option>
+                </select>
+            </div>
+    
+            <div class="column">
+                <select id="sec">
+                    <option value="sec" selected hidden>sec</option>
+                </select>
+            </div>
+    
+            <div class="column">
+                <select id="ampm">
+                    <option value="AM/PM" selected hidden>AM/PM</option>
+                </select>
+            </div>
+        </div>
+        <button id="setBtn" style="margin: 10px;">Set Alarm</button>
+        <button id="clearBtn" style="margin: 10px;">Clear Alarm</button>
+        <!-- Alarm time indicator -->
+        <p id="alarmText"></p>
+    
+    </div>
+    <h3>Alarms Setted Below:-</h3>
+
+    <div id="display"></div>
+
+    <!-- <img id="bg-image" src="nature.jpg" alt=""> -->
+</body>
+<script src="main.js"></script>
+
+</script>
+</html>

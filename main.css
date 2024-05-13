@@ -1,0 +1,50 @@
+body{   
+    color: black;
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue;
+    text-align: center;
+    font-family: cursive;
+    background-image: url('/img1.png') ;
+    background-size: 100%;
+}
+
+.center{
+    padding: 0.2em 2em;
+}
+.column{
+    padding:5px;
+}
+.title{
+    background:chartreuse;
+}
+.alarmtimebody{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding: 1em 2em 0 2em;
+}
+
+label{
+    letter-spacing: 0.1em;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+button{
+    background-color: cornflowerblue;
+    border: none;
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.alarmLog{
+    padding: 10px;
+}
+
+h3{
+    position: relative;
+}
